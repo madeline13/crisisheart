@@ -1,1 +1,13 @@
+# include <ArduinoBLE.h>
 
+BLEService motorservice
+
+void setup {
+
+}
+
+void loop {
+
+}
+
+//pretend first that it will connect only to smartphones
