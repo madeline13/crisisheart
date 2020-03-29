@@ -15,5 +15,21 @@ delay(1);
 }
 
 void loop() {
-randNumber
+randNumber = random(20);
+if (randNumber == 15) {
+  digitalWrite(vibe, HIGH);
+  delay(2000);
+}
+else {
+  digitalWrite(vibe, LOW);
+  delay(360000);
+}
+
+switchValue = digitalRead(switchPin);
+if (switchValue == LOW) {
+  digitalWrite(vibe, HIGH);
+ }
+else {
+  digitalWrite(vibe, LOW);
+}
 }
