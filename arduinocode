@@ -1,0 +1,19 @@
+// These lines allow the Arduino to vibrate randomly to keep you mindful of your own state of mind, even in ordinary times.
+
+int vibe = 9; //may have to change
+int switchPin = 2; //may change depending on board used
+int switchValue;
+
+long randNumber;
+
+void setup(){
+pinMode(vibe, OUTPUT);
+pinMode(switchPin, INPUT);
+digitalWrite(switchPin, HIGH);
+randomSeed(analogRead(0));
+delay(1);
+}
+
+void loop() {
+randNumber
+}
